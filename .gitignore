@@ -1,0 +1,14 @@
+node_modules
+.env
+
+# parcel
+.parcel-cache
+
+# pseronal graphic folder
+_crea
+
+# build folder
+dist
+
+# comment the folowing line to keep the package-lock in your git repository
+package-lock.json
