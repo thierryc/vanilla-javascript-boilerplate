@@ -51,14 +51,14 @@ This will generate a production-ready bundle in the dist directory.
 ## TODO
 
 - [X] Setup Parcel
-- [] CLI documentation
-- [] Manifest documentation
-- [] Nested post CSS config and documentation
-- [] Webworker for PWA support
-- [] Setup a app icons & favico workflow and link a Figma file to edit it.
-- [] Delpoy docuementation for Surge
-- [] Delpoy docuementation for Vercel
-- [] Delpoy docuementation in general
+- [ ] CLI documentation
+- [ ] Manifest documentation
+- [ ] Nested post CSS config and documentation
+- [ ] Webworker for PWA support
+- [ ] Setup a app icons & favico workflow and link a Figma file to edit it.
+- [ ] Delpoy docuementation for Surge
+- [ ] Delpoy docuementation for Vercel
+- [ ] Delpoy docuementation in general
 
 ## License
 
