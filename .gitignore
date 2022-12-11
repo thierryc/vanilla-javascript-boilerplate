@@ -3,6 +3,7 @@ node_modules
 
 # parcel
 .parcel-cache
+parcel-bundle-reports
 
 # pseronal graphic folder
 _crea

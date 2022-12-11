@@ -40,6 +40,27 @@ npm run build
 
 This will generate a production-ready bundle in the dist directory.
 
+## Links and documentation
+
+- https://developer.mozilla.org/en-US/
+- https://vanillajstoolkit.com
+- https://javascript.info
+- https://web.dev/learn/pwa/
+
+
+## TODO
+
+- [X] Setup Parcel
+- [] CLI documentation
+- [] Manifest documentation
+- [] Nested post CSS config and documentation
+- [] Webworker for PWA support
+- [] Setup a app icons & favico workflow and link a Figma file to edit it.
+- [] Delpoy docuementation for Surge
+- [] Delpoy docuementation for Vercel
+- [] Delpoy docuementation in general
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+

@@ -4,9 +4,16 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build"
+    "build": "rimraf dist && parcel build",
+    "build:reporter": "rimraf dist && parcel build --reporter @parcel/reporter-bundle-analyzer"
   },
   "devDependencies": {
-    "parcel": "latest"
+    "@parcel/reporter-bundle-analyzer": "^2.8.1",
+    "parcel": "latest",
+    "posthtml-include": "^1.7.4",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "posthtml-doctype": "^1.1.1"
   }
 }
