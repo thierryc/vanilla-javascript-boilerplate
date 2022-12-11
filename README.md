@@ -60,6 +60,14 @@ This will generate a production-ready bundle in the dist directory.
 - [ ] Delpoy docuementation for Vercel
 - [ ] Delpoy docuementation in general
 
+## browserslist
+
+```json
+"browserslist": "> 0.2%, last 2 versions, not dead",
+```
+
+https://browserslist.dev/?q=PiAwLjIlLCBsYXN0IDIgdmVyc2lvbnMsIG5vdCBkZWFk
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
