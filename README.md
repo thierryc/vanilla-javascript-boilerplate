@@ -16,11 +16,25 @@ This is a modern and simple boilerplate for Vanilla JavaScript projects. It is b
 
 Clone the repository and install the dependencies:
 
+### HTTPS clone
+
 ```bash
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/thierryc/vanilla-javascript-boilerplate.git
+cd vanilla-javascript-boilerplate
 npm install
 ```
+
+### Github Cli
+
+Use Github official CLI. [Learn more](https://cli.github.com).
+
+```bash
+gh repo clone thierryc/vanilla-javascript-boilerplate
+cd vanilla-javascript-boilerplate
+npm install
+```
+
+
 
 Run the development server:
 
