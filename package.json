@@ -1,19 +1,18 @@
 {
-  "name": "@ap.cx/vanilla-javascript-boilerplate",
+  "name": "vanilla-javascript-boilerplate",
   "source": "src/index.html",
   "browserslist": "> 0.2%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel",
     "build": "rimraf dist && parcel build",
-    "build:reporter": "rimraf dist && parcel build --reporter @parcel/reporter-bundle-analyzer"
+    "build:reporter": "rimraf dist && parcel build --reporter @parcel/reporter-bundle-analyzer",
+    "postbuild": "shx cp ./src/service-worker.js ./dist/"
   },
   "devDependencies": {
-    "@parcel/reporter-bundle-analyzer": "^2.8.1",
     "parcel": "latest",
+    "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^1.7.4",
-    "rimraf": "^3.0.2"
-  },
-  "dependencies": {
-    "posthtml-doctype": "^1.1.1"
+    "rimraf": "^3.0.2",
+    "shx": "^0.3.4"
   }
 }

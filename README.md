@@ -2,6 +2,8 @@
 
 "Simplicity is the ultimate sophistication."
 
+This repository contains my work in progress boilerplate.
+
 This is a modern and simple boilerplate for Vanilla JavaScript projects. It is based on the latest version of ECMAScript (ES2020) and provides support for ES6 and ES7 features out of the box.
 
 ## Features
@@ -34,7 +36,9 @@ cd vanilla-javascript-boilerplate
 npm install
 ```
 
+### Rename the project.
 
+Replace "vanilla-javascript-boilerplate" by your own name.
 
 Run the development server:
 
@@ -42,7 +46,7 @@ Run the development server:
 npm run dev
 ```
 
-Open http://localhost:1234 in your browser to view the project.
+Open [http://localhost:1234](http://localhost:1234) in your browser to view the project.
 Edit the src/index.js file to start building your project.
 Building for Production
 
@@ -70,9 +74,10 @@ This will generate a production-ready bundle in the dist directory.
 - [ ] Nested post CSS config and documentation
 - [ ] Webworker for PWA support
 - [ ] Setup a app icons & favico workflow and link a Figma file to edit it.
-- [ ] Delpoy docuementation for Surge
-- [ ] Delpoy docuementation for Vercel
-- [ ] Delpoy docuementation in general
+- [ ] Delpoy documentation for Surge
+- [ ] Delpoy documentation for Vercel
+- [ ] Delpoy documentation in general
+- [ ] tests for JavaScript
 
 ## browserslist
 
