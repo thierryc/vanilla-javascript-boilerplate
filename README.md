@@ -22,7 +22,8 @@ Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/thierryc/vanilla-javascript-boilerplate.git
-cd vanilla-javascript-boilerplate
+mv vanilla-javascript-boilerplate yourProjectName
+cd yourProjectName
 npm install
 ```
 
@@ -32,13 +33,14 @@ Use Github official CLI. [Learn more](https://cli.github.com).
 
 ```bash
 gh repo clone thierryc/vanilla-javascript-boilerplate
-cd vanilla-javascript-boilerplate
+mv vanilla-javascript-boilerplate yourProjectName
+cd yourProjectName
 npm install
 ```
 
 ### Rename the project.
 
-Replace "vanilla-javascript-boilerplate" by your own name.
+Replace "vanilla-javascript-boilerplate" by your own name "yourProjectName".
 
 Run the development server:
 
